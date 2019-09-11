@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Please Enter Your ID"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_daily"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start Daily Tracker" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Term of use" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+</LinearLayout>
